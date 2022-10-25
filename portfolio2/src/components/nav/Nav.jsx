@@ -1,15 +1,25 @@
-import React from 'react';
+import React,{useState} from 'react';
 import logo from '../../img/logo.svg';
 import hamburger from '../../img/hamburger.svg';
 import close from '../../img/close.svg';
 import Btn from '../btn/Btn';
 
 export default function Nav({ toggle, toggleMenu}) {
+  const [shadow, setShadow] = useState(false);
+  function NavShadow() {    
+    if (window.scrollY >= 90) {
+        setShadow(true)
+    } else {
+        setShadow(false)
+    }
+}
+window.addEventListener('scroll', NavShadow)
 
   return (
-    <nav className=' absolute left-0 right-0  top-0  '>
+    
+    <nav className={shadow? ' bg-primary sticky left-0 right-0 shadow-xl  top-0 NavShadow':' bg-primary sticky left-0 right-0   top-0 NavShadow'} >
 
-      <div className='navContainer container flex items-center  justify-between py-[30px] md:py-[30px] 3xl:py-[45px]  '>
+      <div className='navContainer container flex items-center  justify-between py-[20px] md:py-[30px] 3xl:py-[45px]  '>
         <div className="logo cursor-pointer relative z-[90] ">
           <img className='w-[40px] lg:w-[50px]' src={logo} alt="" />
 

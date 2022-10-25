@@ -3,15 +3,16 @@ import React from 'react';
 
 import Btn from '../btn/Btn';
 
-
 export default function Hello() {
   return (
 
-    <section className='hero bg-spiral-mob bg-no-repeat bg-cover bg-center h-[100vh]
+    <section className='hero bg-spiral-mob bg-no-repeat   bg-cover bg-bottom- h-[100vh]
     lg:bg-spiral-lg  
     '>
-     <div className="hero-wrapper pt-[120px] container bg-primary h-[85vh] 
-     lg:h-[80vh]  ">
+      
+      <div className="hero-wrapper bg-primary pt-[120px] lg:h-[80vh]   container h-[80vh]">
+     <div className="bucket   
+      ">
      <div className="desc text-left lg:flex-[1.7]  overflow-x-hidden">
           <h2 className='mb-[5px] font-medium text-[18px] text-[white]
                     lg:text-[30px] md:mt-[50px]  3xl:mt-[100px]  3xl:text-[30px]
@@ -25,13 +26,13 @@ export default function Hello() {
            2xl:max-w-[750px] 
           
                     ' >I design & build web software solutions!</h1>
-          <p className="body text-[0.9rem] md:text-[1.4rem] w-[90%] mb-[45px] text-secondary opacity-75 font-light leading-[1.3rem]
+          <p className="body text-[0.9rem] md:text-[1.4rem] mb-[45px] text-secondary opacity-75 font-light leading-[1.3rem]
                     md:w-[85%]   2xl:text-[1.5rem]  2xl:w-[75%] md:mb-[50px] 2xl:mb-[90px] md:leading-[1.8rem] 2xl:leading-[2rem]
                     ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
           <Btn />
         </div>
      </div>
-      
+     </div>
     </section>
   )
 }
