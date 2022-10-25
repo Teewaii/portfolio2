@@ -44,7 +44,7 @@ code {
   }
 
   .header {
-    @apply text-primary font-[700] text-[2.2rem] leading-[2.5rem]
+    @apply text-primary font-[500] text-[2.2rem] 
   }
 
   h2 {
