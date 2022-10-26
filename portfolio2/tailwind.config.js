@@ -35,6 +35,7 @@ module.exports = {
       'exp': "url('../src/img/experience.svg')",
       'Contact': "url('../src/img/Contact.svg')",
       'About': "url('../src/img/About.svg')",
+      'hdsabout': "url('../src/img/shot.svg')",
     },
     extend: {},
   },

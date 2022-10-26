@@ -4,6 +4,8 @@ import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
 import Tools from './components/tools/Tools';
 import Socials from './components/socials/Socials';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
 import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
@@ -23,6 +25,8 @@ function App() {
         toggleMenu={toggleMenu}
       />    
     < Hero/>
+    <About/>
+    <Experience/>
     <Tools/>
     <Socials/>
     {/* <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} /> */}

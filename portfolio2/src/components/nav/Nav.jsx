@@ -17,7 +17,7 @@ export default function Nav({ toggle, toggleMenu }) {
 
   return (
 
-    <nav className={shadow ? ' bg-primary sticky left-0 right-0 shadow-xl  top-0 NavShadow  ' : ' bg-primary  sticky left-0 right-0  z-[2000]  top-0 NavShadow'} >
+    <nav className={shadow ? ' bg-primary sticky left-0 right-0 shadow-xl z-[2000] top-0 NavShadow  ' : ' bg-primary  sticky left-0 right-0  z-[2000]  top-0 NavShadow'} >
 
       <div className='navContainer container flex items-center  justify-between py-[20px] md:py-[30px] 3xl:py-[45px] '>
         <div className="logo cursor-pointer relative z-[90] ">
