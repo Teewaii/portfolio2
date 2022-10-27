@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.c0da6cbf.css",
-    "main.js": "/portfolio2/static/js/main.005c369a.js",
-    "static/media/shot.svg": "/portfolio2/static/media/shot.3a961dd2c50d60fe36399d50118326a4.svg",
-    "static/media/spiral-lg.svg": "/portfolio2/static/media/spiral-lg.42b25ea858ed41be273c.svg",
-    "static/media/spiral-mob.svg": "/portfolio2/static/media/spiral-mob.6869fa6fdb273e7c8af1.svg",
-    "static/media/About.svg": "/portfolio2/static/media/About.355b920b3b979fbc9d1f.svg",
-    "static/media/logo.svg": "/portfolio2/static/media/logo.30ab5bb51edee1ba53013b85ce081651.svg",
+    "main.css": "/portfolio2/static/css/main.d162b996.css",
+    "main.js": "/portfolio2/static/js/main.cb35834b.js",
+    "static/media/shot.svg": "/portfolio2/static/media/shot.ae5e01d1d672f042302a1f0546996763.svg",
+    "static/media/spiral-lg.svg": "/portfolio2/static/media/spiral-lg.d51072780f2210c88bd7.svg",
+    "static/media/spiral-mob.svg": "/portfolio2/static/media/spiral-mob.aabf063fc6c3063dfca3.svg",
+    "static/media/About.svg": "/portfolio2/static/media/About.4a4fabcf12cdc0bd1bd8.svg",
+    "static/media/logo.svg": "/portfolio2/static/media/logo.20977a494c942041a4b1853d84ecd4e0.svg",
     "index.html": "/portfolio2/index.html",
-    "static/media/downArrow.svg": "/portfolio2/static/media/downArrow.4865b500edc21f3b4af8178a2d41c337.svg",
-    "static/media/rightArrow.svg": "/portfolio2/static/media/rightArrow.9eb90bba89b61bea045edb9718c6417f.svg",
-    "static/media/hamburger.svg": "/portfolio2/static/media/hamburger.ac42f6b03e9f6c113afc0464e781195b.svg",
-    "static/media/close.svg": "/portfolio2/static/media/close.6ba031feba26f3c2db1bcc011ff56df9.svg",
-    "main.c0da6cbf.css.map": "/portfolio2/static/css/main.c0da6cbf.css.map",
-    "main.005c369a.js.map": "/portfolio2/static/js/main.005c369a.js.map"
+    "static/media/downArrow.svg": "/portfolio2/static/media/downArrow.fba9f12e19e1c7deddefe061ff87a7e8.svg",
+    "static/media/rightArrow.svg": "/portfolio2/static/media/rightArrow.eda8150b65d9621a70c1db27c817ceac.svg",
+    "static/media/hamburger.svg": "/portfolio2/static/media/hamburger.c7956b290f893616472c902438408043.svg",
+    "static/media/close.svg": "/portfolio2/static/media/close.6ffa77ed7bf9fe613124dff4e1c14bc4.svg",
+    "main.d162b996.css.map": "/portfolio2/static/css/main.d162b996.css.map",
+    "main.cb35834b.js.map": "/portfolio2/static/js/main.cb35834b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0da6cbf.css",
-    "static/js/main.005c369a.js"
+    "static/css/main.d162b996.css",
+    "static/js/main.cb35834b.js"
   ]
 }
