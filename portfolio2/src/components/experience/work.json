@@ -1,0 +1,24 @@
+[
+    
+    
+    {"id":1,
+      "company":"Rimal Adv.",
+      "title":"Creative Designer - ",
+      "year":"2020-2023",
+      "desc":["Consult with clients to establish the overall look of their project","Establish guidelines for illustrators, fonts, colours and images"]
+    },
+
+    {"id":2,
+      "company":"Sprout",
+      "title":"Web Developer/Creative Designer - ",
+      "year":"2017-2019",
+      "desc":[]
+    },
+
+    {"id":3,
+      "company":"240 Media",
+      "title":"Graphic designer/Web developer - ",
+      "year":"2015-2017",
+      "desc":[]
+    }
+]
