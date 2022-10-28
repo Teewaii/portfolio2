@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.2e914ec0.css",
-    "main.js": "/portfolio2/static/js/main.2a62bbab.js",
+    "main.css": "/portfolio2/static/css/main.5cd2cd06.css",
+    "main.js": "/portfolio2/static/js/main.b4493077.js",
     "static/media/shot.svg": "/portfolio2/static/media/shot.3a961dd2c50d60fe36399d50118326a4.svg",
     "static/media/spiral-lg.svg": "/portfolio2/static/media/spiral-lg.42b25ea858ed41be273c.svg",
     "static/media/spiral-mob.svg": "/portfolio2/static/media/spiral-mob.6869fa6fdb273e7c8af1.svg",
@@ -12,11 +12,11 @@
     "static/media/rightArrow.svg": "/portfolio2/static/media/rightArrow.9eb90bba89b61bea045edb9718c6417f.svg",
     "static/media/hamburger.svg": "/portfolio2/static/media/hamburger.ac42f6b03e9f6c113afc0464e781195b.svg",
     "static/media/close.svg": "/portfolio2/static/media/close.6ba031feba26f3c2db1bcc011ff56df9.svg",
-    "main.2e914ec0.css.map": "/portfolio2/static/css/main.2e914ec0.css.map",
-    "main.2a62bbab.js.map": "/portfolio2/static/js/main.2a62bbab.js.map"
+    "main.5cd2cd06.css.map": "/portfolio2/static/css/main.5cd2cd06.css.map",
+    "main.b4493077.js.map": "/portfolio2/static/js/main.b4493077.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e914ec0.css",
-    "static/js/main.2a62bbab.js"
+    "static/css/main.5cd2cd06.css",
+    "static/js/main.b4493077.js"
   ]
 }
