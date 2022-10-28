@@ -17,7 +17,7 @@ module.exports = {
         sm: '2rem',
         lg: '3rem',
         xl: '1rem',
-        
+
       },
 
       center: true,
@@ -26,7 +26,7 @@ module.exports = {
       'primary': '#012B48',
       'secondary': '#75D0EE',
       'green': '#D6E869',
-      
+
     },
     backgroundImage: {
       'spiral-lg': "url('../src/img/spiral-lg.svg')",
@@ -39,5 +39,7 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

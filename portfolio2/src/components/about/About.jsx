@@ -25,7 +25,7 @@ export default function About() {
     
     '>
       <div className="aboutWrapper  container flex flex-col lg:flex-row items-center justify-center ">
-        <div className='bucket flex items-center flex-col lg:items-start   gap-[124px] xl:px-[5rem] 
+        <div className='bucket flex items-center flex-col lg:items-start  gap-[90px]  lg:gap-[124px] xl:px-[5rem] 
     md:flex-row 
     ' >
           <div className="desc text-left flex-[1] ">
@@ -55,7 +55,6 @@ export default function About() {
                 ))
 
                 }
-
 
               </ul>
             </div>
