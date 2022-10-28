@@ -12,9 +12,9 @@ export default function Experience() {
   }
 
   return (
-    <section className="experience h-[100vh] lg:h-[90vh] bg-primary  flex flex-col items-center pt-[4rem] lg:pt-[8rem] lg:px-[11rem]">
+    <section className="experience min-h-[100vh] lg:h-[90vh] bg-primary  flex flex-col items-center pt-[4rem] lg:pt-[8rem] lg:px-[11rem]">
       <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Palces I have worked</h1>
-      <div className="experience-wrapper border-[3px] rounded-xl px-6 border-opacity-[0.1] border-secondary  flex flex-col
+      <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
       shadow-2xl min-h-[400px] pb-[50px] container lg:py-[4rem] mt-[20px]
       ">
 
@@ -25,7 +25,7 @@ export default function Experience() {
             work.map((work, index) => {
               return (
 
-                <div className={exp === index ? "after:rounded-[5px] px-[30px] py-[20px] relative bg-secondary bg-opacity-[.05] rounded-t-lg after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[-2px] after:top-[97%] text-[1.2rem] cursor-pointer min-w-fit mr-4" : "tab px-[30px] py-[20px]  cursor-pointer text-[1.2rem] min-w-fit mr-8 "}
+                <div className={exp === index ? "after:rounded-[5px] px-[30px] py-[20px] relative bg-secondary bg-opacity-[.05] rounded-t-lg after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[-2px] after:top-[97%] text-[1rem] lg:text-[1.2rem] cursor-pointer min-w-fit lg:mr-4" : "tab px-[30px] py-[20px]  cursor-pointer text-[1rem] lg:text-[1.2rem] min-w-fit lg:mr-8 "}
                   onClick={() => activeTab(index)} key={index}
                 >{work.company}</div>
 
