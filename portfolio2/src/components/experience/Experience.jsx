@@ -15,7 +15,7 @@ export default function Experience() {
     <section className="experience min-h-[100vh] lg:h-[90vh] bg-primary  flex flex-col items-center pt-[4rem] lg:pt-[8rem] lg:px-[11rem]">
       <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Palces I have worked</h1>
       <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
-      shadow-2xl min-h-[400px] pb-[50px] container lg:py-[4rem] mt-[20px]
+       min-h-[400px] pb-[50px] container lg:py-[4rem] mt-[20px]
       ">
 
         <div className='tabs-head  text-[1.4rem] text-secondary 

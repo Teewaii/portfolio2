@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
-import Tools from './components/tools/Tools';
 import Socials from './components/socials/Socials';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
@@ -10,6 +9,7 @@ import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
+
 
 function App() {
 
@@ -29,8 +29,12 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Tools />
       <Socials />
+
+      <div className="test h-[50vh] bg-secondary relative z-[500]">
+
+        <img src="logo512.png" className='logo' alt="" />
+      </div>
       {/* <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} /> */}
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}
