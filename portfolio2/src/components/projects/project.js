@@ -10,22 +10,19 @@ const Images = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
         pix: sass,
         tools: [
-            "React.js",
-            "TailwindCSS"
+            "React.js", "TailwindCSS"
         ]
     },
-
     {
         id: 2,
-        title: "Easybank LP",
+        title: "Easybank LP ",
         head: "Easybank Landing Page",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
-        pix: easy,
+        pix: sass,
         tools: [
-            "React.js",
-            "TailwindCSS"
+            "React.js", "TailwindCSS"
         ]
-    }
+    },
 
 ]
 
