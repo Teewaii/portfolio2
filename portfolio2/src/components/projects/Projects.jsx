@@ -77,7 +77,7 @@ export default function Projects() {
               </div>
 
               <div className="img  flex flex-[1] rounded-xl overflow-hidden">
-                <img className='h-[70%] w-[100%]' src={item.pix} alt="" />
+                <img className='h-[100%] w-[100%]' src={item.pix} alt="" />
               </div>
 
             </div>
