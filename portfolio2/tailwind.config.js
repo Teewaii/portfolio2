@@ -10,7 +10,10 @@ module.exports = {
       medium: 500,
       bold: 700,
     },
-
+    fontFamily: {
+      'playfair': ['Playfair Display']
+    }
+    ,
     container: {
       padding: {
         DEFAULT: '1.5rem',

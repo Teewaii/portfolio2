@@ -15,7 +15,7 @@ export default function Hello() {
       <div className="hero-wrapper flex items-center bg-primary pt-[50px] h-[75%] 
       
       lg:h-[85%] lg:pt-0   ">
-      {/* lg:h-[85%] lg:pt-[10px] 2xl:pt-[50px]  "> */}
+        {/* lg:h-[85%] lg:pt-[10px] 2xl:pt-[50px]  "> */}
         <div className="bucket container lg:min-w-[200px] lg:px-[10rem] ">
 
           <div className="desc text-left lg:flex-[1.7]  overflow-x-hidden ">
@@ -38,7 +38,7 @@ export default function Hello() {
           </div>
         </div>
       </div>
-   
+
     </section>
   )
 }
