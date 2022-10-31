@@ -15,7 +15,7 @@ export default function Projects() {
     <section id='projects' className="experience min-h-[100vh] lg:[90vh] bg-primary  
      flex justify-center items-center
     ">
-      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] lg:px-[11rem] container">
+      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] lg:px-[8rem] container">
       <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>

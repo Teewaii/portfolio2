@@ -20,7 +20,7 @@ const tools = [
 
 export default function About() {
   return (
-    <section id='about' className='about min-h-[100vh] flex py-[50px] border
+    <section id='about' className='about min-h-[100vh] flex py-[50px] 
     md:pb-[40px] lg:h-[95vh] 2xl:lg:h-[85vh] lg:bg-About lg:bg-lb   lg:bg-no-repeat
     
     '>
