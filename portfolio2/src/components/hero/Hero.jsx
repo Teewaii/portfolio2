@@ -6,7 +6,7 @@ import Btn from '../btn/Btn';
 export default function Hello() {
   return (
 
-    <section className='hero bg-spiral-mob bg-no-repeat   bg-cover bg-bottom- h-[100vh]
+    <section id='hero' className='hero bg-spiral-mob bg-no-repeat   bg-cover bg-bottom- h-[100vh]
     lg:bg-spiral-lg  lg:h-[91vh] 2xl:lg:h-[95vh] relative after:absolute
     after:bg-secondary after:top-[70%] after:bottom-0 after:left-0
     after:right-0 after:z-[-1] after:opacity-[0.2]

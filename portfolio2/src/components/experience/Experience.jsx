@@ -12,22 +12,22 @@ export default function Experience() {
   }
 
   return (
-    <section className="experience min-h-[100vh] lg:h-[90vh] bg-primary  flex flex-col items-center pt-[4rem] lg:pt-[8rem] lg:px-[11rem]
-    lg:bg-exp  lg:bg-no-repeat
-    ">
+    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] lg:[90vh] bg-primary   ">
+      <div className="bucket  flex flex-col items-center pt-[8rem]  md:pt-[2rem] lg:px-[11rem] container
+     ">
       <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Palces I have worked</h1>
       <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[4rem] mt-[20px]
       ">
 
-        <div className='tabs-head  text-[1.4rem] text-secondary 
-        border-b-[2px] flex   border-opacity-[0.1] border-secondary overflow-auto scrollbar-hide 
+        <div className='tabs-head  text-[1.4rem] text-secondary pt-[2rem] 
+        flex   border-opacity-[0.1] border-secondary overflow-auto overflow-y-hidden lg:pt-[0rem] 
         '     >
           {
             work.map((work, index) => {
               return (
 
-                <div className={exp === index ? "after:rounded-[5px] px-[30px] py-[20px] relative bg-secondary bg-opacity-[.05] rounded-t-lg after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[-2px] after:top-[97%] text-[1rem] lg:text-[1.2rem] cursor-pointer min-w-fit lg:mr-4" : "tab px-[30px] py-[20px]  cursor-pointer text-[1rem] lg:text-[1.2rem] min-w-fit lg:mr-8 "}
+                <div className={exp === index ? "after:rounded-[5px] px-[30px] py-[20px] relative bg-secondary bg-opacity-[.05] rounded-t-lg after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[90%] after:top-[4%] text-[1rem] lg:text-[1.2rem] cursor-pointer min-w-fit lg:mr-4" : "tab px-[30px] py-[20px]  cursor-pointer text-[1rem] lg:text-[1.2rem] min-w-fit lg:mr-8 "}
                   onClick={() => activeTab(index)} key={index}
                 >{work.company}</div>
 
@@ -69,16 +69,7 @@ export default function Experience() {
             })
           }
         </div>
-
-
-
-
-
-
-
-
-
-
+        </div>
       </div>
 
 
