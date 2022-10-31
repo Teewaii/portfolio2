@@ -23,7 +23,7 @@ export default function Nav({ toggle, toggleMenu }) {
 
       <div className='navContainer container flex items-center  justify-between py-[20px] md:py-[30px] 3xl:py-[45px] '>
         <div className="logo cursor-pointer relative z-[90] ">
-         <a href="/"><img className='w-[40px] lg:w-[50px] ' src={logo} alt="logo" /></a> 
+         <a href="#home"><img className='w-[40px] lg:w-[50px] ' src={logo} alt="logo" /></a> 
 
         </div>
         <div className="links z-40 ">
