@@ -4,7 +4,7 @@ import hamburger from '../../img/hamburger.svg';
 import close from '../../img/close.svg';
 import Btn from '../btn/Btn';
 
-export default function Nav({ toggle, toggleMenu }) {
+export default function Nav({ toggle, toggleMenu,setToggle }) {
   const [shadow, setShadow] = useState(false);
   function NavShadow() {
     if (window.scrollY >= 120) {
@@ -27,15 +27,17 @@ export default function Nav({ toggle, toggleMenu }) {
 
         </div>
         <div className="links z-40 ">
-          <ul className={toggle ? 'hidden  md:bg-opacity-0 flex-col items-start  gap-[20px] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0 ' : '  flex flex-col items-start  bg-[white]  md:bg-[inherit] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0'} onClick={toggleMenu}>
+          <ul className={toggle ? 'hidden  md:bg-opacity-0 flex-col items-start  gap-[20px] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0 ' : '  flex flex-col items-start  bg-[white]  md:bg-[inherit] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0'} onClick={()=>setToggle(true)}>
 
-            <li className='text-left mt-[20px] text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+            <li className='block  text-left mt-[20px] text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
               md:text-[white]   md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0' ><a className=' ml-[40px]' href="#about">About</a></li>
-            <li className='text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+            <li className='block  text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
               md:text-[white]   md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0' ><a className=' ml-[40px]  ' href="#experience">Experience</a></li>
-            <li className='text-left mt-[20px]  text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+            <li className='block  text-left mt-[20px]  text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
                md:text-[white]  md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0' ><a className=' ml-[40px]   ' href="#projects">Projects</a></li>
-            <li className='text-left mt-[20px]   text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+            <li className='block  text-left mt-[20px]   text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+                md:text-[white] md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0' ><a className=' ml-[40px]  ' href="#">Contact</a></li>
+            <li className='block  text-left mt-[20px]   text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
                 md:text-[white] md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0' ><a className=' ml-[40px]  ' href="#">Resume</a></li>
 
             <div className="hello scale-[0.8] ml-[20px] mt-[20px] md:hidden">

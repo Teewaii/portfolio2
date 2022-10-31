@@ -24,13 +24,14 @@ function App() {
       <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
+        setToggle={setToggle}
       />
       < Hero />
       <About />
       <Experience />
       <Projects />
       <Socials />
-      {/* <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} /> */}
+      <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}
     </div>
