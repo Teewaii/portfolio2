@@ -20,8 +20,8 @@ const tools = [
 
 export default function About() {
   return (
-    <section id='about' className='about min-h-[100vh] flex py-[50px] 
-    md:pb-[40px] lg:min-h-[95vh] 2xl:lg:h-[85vh]    
+    <section id='about' className='about min-h-[100vh] flex py-[150px] 
+    md:pb-[40px] 2xl:lg:h-[85vh]  
     
     '>
       <div className="aboutWrapper  container flex flex-col lg:flex-row items-center justify-center ">
@@ -64,7 +64,7 @@ export default function About() {
             <img className=' scale-[0.8] md:scale-[1]  w-[fit] md:w-[50%]' src={hdshot} alt="head shot" />
 
           </div>
-         
+
         </div>
       </div>
     </section>

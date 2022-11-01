@@ -13,7 +13,7 @@ export default function Hello() {
     '>
 
       <div className="hero-wrapper flex items-center bg-primary pt-[20px] h-[78vh] 
-      
+       
       lg:h-[80vh] 2xl:h-[78vh] lg:pt-0   ">
         {/* lg:h-[85%] lg:pt-[10px] 2xl:pt-[50px]  "> */}
         <div className="bucket container lg:min-w-[200px] ">

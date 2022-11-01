@@ -31,7 +31,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Footer/>
+      <Footer />
       <Socials />
       <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
       {!toggle &&
