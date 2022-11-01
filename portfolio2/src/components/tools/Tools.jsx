@@ -11,7 +11,7 @@ export default function Tools() {
     after:bg-secondary after:top-0 after:bottom-0 after:left-0  
     after:right-0 after:z-[-1] after:opacity-[0.3]'>
     
-      <div className="bucket flex flex-col xl:flex-row-reverse lg:gap-[5px] 2xl:gap-[40px] items-center justify-center xl:justify-end container w-[100%] ">
+      <div className="bucket flex flex-col xl:flex-row-reverse lg:gap-[5px] 2xl:gap-[80px] items-center justify-center xl:justify-end container w-[100%] ">
       <h1 className=' font-medium opacity-40 text-[1rem] xl:text-[1.3rem] relative'>My tool box</h1>
       
       <div className="icons flex   gap-[8px] scale-[0.55] xl:scale-[1] lg:scale-[0.6] lg:gap-[50px] 
