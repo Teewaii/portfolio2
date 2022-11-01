@@ -21,16 +21,16 @@ const tools = [
 export default function About() {
   return (
     <section id='about' className='about min-h-[100vh] flex py-[50px] 
-    md:pb-[40px] lg:h-[95vh] 2xl:lg:h-[85vh] lg:bg-About lg:bg-lb   lg:bg-no-repeat
+    md:pb-[40px] lg:min-h-[95vh] 2xl:lg:h-[85vh]    
     
     '>
       <div className="aboutWrapper  container flex flex-col lg:flex-row items-center justify-center ">
-        <div className='bucket flex items-center flex-col lg:items-start  gap-[90px]  lg:gap-[124px] xl:px-[5rem] 
+        <div className='bucket flex items-center flex-col lg:items-start  gap-[90px]  lg:gap-[124px]  
     md:flex-row 
     ' >
-          <div className="desc text-left flex-[1] ">
+          <div className="desc text-left flex-[1]  ">
             <h2 className=" text-primary text-[25px]  lg:text-[30px] font-medium  mb-[35px]">About <span className='text-green font-bold bg-primary rounded-full 
-           px-2 py-3       lg:px-3 lg:py-4          
+           px-2 py-3  lg:px-3 lg:py-4          
           ' >me!</span></h2>
             <p className='text-primary   mt-[20px] w-[95%] leading-[30px] relative font-[300]
       border-b-[1px] border-lightprim pb-[30px] md:text-[15px] 2xl:text-[19px] 2xl:leading-[38px]
@@ -59,17 +59,12 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div className="hero  md:flex-[1] h-[100%]  
+          <div className="hero  md:flex-[0.8] h-[100%] items-center
        ">
-            <img className=' h-fit' src={hdshot} alt="head shot" />
+            <img className=' scale-[0.8] md:scale-[1]  w-[fit] md:w-[50%]' src={hdshot} alt="head shot" />
 
           </div>
-          {/* <div className="hero lg:flex md:flex-[1] items-end  border 
-        md:bg-hdsabout md:bg-fit md:bg-opacity-[0.5] md:items-center md:justify-center
-         bg-center  bg-no-repeat  h-[400px]  ">
-          <img src={hdshot} alt="" />
-        
-        </div> */}
+         
         </div>
       </div>
     </section>

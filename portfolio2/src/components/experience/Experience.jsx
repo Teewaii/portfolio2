@@ -13,7 +13,7 @@ export default function Experience() {
 
   return (
     <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] lg:[90vh] bg-primary   ">
-      <div className="bucket  flex flex-col items-center pt-[8rem]  md:py-[10rem] lg:px-[8rem] container
+      <div className="bucket  flex flex-col items-center pt-[8rem]  md:py-[10rem] container
      ">
         <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Palces I have worked</h1>
         <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col

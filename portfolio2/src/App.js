@@ -9,6 +9,7 @@ import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
+      <Footer/>
       <Socials />
       <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
       {!toggle &&

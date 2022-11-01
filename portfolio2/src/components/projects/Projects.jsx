@@ -13,9 +13,9 @@ export default function Projects() {
 
   return (
     <section id='projects' className="experience min-h-[100vh] lg:[90vh] bg-primary  
-     flex justify-center items-center border md:py-[10rem]
+     flex justify-center items-center  md:py-[10rem] pb-10 
     ">
-      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] lg:px-[8rem] container">
+      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
@@ -34,7 +34,7 @@ export default function Projects() {
           flex md:flex-col gap-4 md:border-r-[4px] md:border-b-[0px]  overflow-auto
           ">
               {projects.map((item, index) =>
-                <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary bg-opacity-[0.05] text-[1rem] md:text-[1.2rem] font-normal py-[20px] px-[25px] after:absolute after:bg-green  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 md:after:top-0  md:after:bottom-[0] md:after:left-[98%] md:after:right-[1px]  after:rounded-[5%] cursor-pointer' : 'text-[white] relative text-[1rem] md:text-[1.2rem] font-normal py-[20px] min-w-fit px-[25px] cursor-pointer'}
+                <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary bg-opacity-[0.05] text-[1rem] md:text-[1.2rem] font-normal py-[20px] px-[25px] after:absolute after:bg-green  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 md:after:top-0  md:after:bottom-[0] md:after:left-[98%] md:after:right-[1px]  after:rounded-[5%] cursor-pointer after:delay-100 ease-in-out duration-300' : 'text-[white] relative text-[1rem] md:text-[1.2rem] font-normal py-[20px] min-w-fit px-[25px] cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1]'}
                   onClick={() => activeProject(index)}
                 >
                   {item.title}</h1>
@@ -59,7 +59,7 @@ export default function Projects() {
 
                   <div className="text-data">
                     <h1 className='text-[white] text-[1.5rem]   mb-[10px]
-                  lg:mb-[30px] lg:text-[1.8rem]  '>{item.head}</h1>
+                  lg:mb-[30px] lg:text-[1.6rem]  '>{item.head}</h1>
                     <p className='text-[white]'>{item.desc}</p>
 
 
@@ -67,7 +67,7 @@ export default function Projects() {
                       {item.tools.map((tool, index) => {
                         return (
                           <div className="flex items-center gap-[10px] mt-[50px]">
-                            <li key={index} className='text-secondary  text-[1.1rem] '>{tool}</li>
+                            <li key={index} className='text-secondary text-[0.9rem] md:text-[1.1rem] '>{tool}</li>
                             <span><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z" fill="#D6E869" />
                             </svg>
