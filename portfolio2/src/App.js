@@ -16,9 +16,17 @@ function App() {
 
   const [toggle, setToggle] = useState(true);
 
-
   function toggleMenu() {
     setToggle(prev => !prev);
+  }
+
+  const [project, setProject] = useState(0);
+
+  function activeProject(index) {
+    if (project === index) {
+      return setProject(1)
+    }
+    setProject(index)
   }
   return (
     <div className="App">
@@ -30,7 +38,9 @@ function App() {
       < Hero />
       <About />
       <Experience />
-      <Projects />
+      <Projects 
+      project={project}
+      activeProject={activeProject}/>
       <Footer />
       <Socials />
       <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
