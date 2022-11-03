@@ -9,7 +9,10 @@ import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
-import Footer from './components/footer/Footer';
+ import Footer from './components/footer/Footer';
+// import Contact from './components/contact/Contact';
+
+
 
 
 function App() {
@@ -41,7 +44,7 @@ function App() {
       <Projects 
       project={project}
       activeProject={activeProject}/>
-      <Footer />
+     <Footer/>
       <Socials />
       <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
       {!toggle &&

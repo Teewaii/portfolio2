@@ -9,7 +9,7 @@ export default function Hello() {
 
     <section id='home' className='hero min-h-[100vh]
       lg:h-[91vh] 2xl:lg:h-[95vh] relative after:absolute    
-    after:right-0 after:z-[-1] after:opacity-[0.2]
+    after:right-0 after:z-[-1] after:opacity-[0.2] 
     
     '>
 

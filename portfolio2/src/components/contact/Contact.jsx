@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className='hero  relative bg-hero-right-mob min-h-[100vh]  bg-contain bg-right-top bg-no-repeat overflow-hidden
+    <section id='contact' className='hero  relative bg-hero-right-mob min-h-[100vh]  bg-contain bg-right-top bg-no-repeat overflow-hidden
             md:bg-hero-contact dark:bg-none  md:bg-left-top  md:min-h-[90vh]  dark:bg-dark pb-[100px] 
             md:mb-0  md:py-[80px]
             '>

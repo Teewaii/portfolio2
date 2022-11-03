@@ -5,7 +5,7 @@ export default function Tools() {
     <section className="tools relative 
     xl:after:absolute xl:after:right-0 xl:after:left-[85%] 2xl:after:left-[68%] xl:after:top-[50%] xl:after:bg-secondary xl:after:h-[2px]  after:opacity-50  ">
 <div className='hero bg-spiral-mob flex  bg-no-repeat bg-cover bg-bottom bg-opacity-[0.5] h-[20vh]
-    lg:bg-spiral-lg  lg:min-h-[20vh] 2xl:h-[15vh] relative after:absolute w-[100%]  
+    lg:bg-spiral-lg  lg:min-h-[22vh] 2xl:h-[15vh] relative after:absolute w-[100%]  
     after:bg-secondary after:top-0 after:bottom-0 after:left-0  
     after:right-0 after:z-[-1] after:opacity-[0.3]'>
 

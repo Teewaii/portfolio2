@@ -163,6 +163,13 @@ a {
   background: #75d0ee9a;
 }
 
+@media screen and (min-width:800px) {
+  a.active {
+    border-bottom: 4px solid #75D0EE;
+    padding-bottom: 10px;
+    }
+}
+
 
 
 @tailwind base;
