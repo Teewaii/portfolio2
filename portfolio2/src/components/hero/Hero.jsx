@@ -1,19 +1,21 @@
 
 import React from 'react';
-
 import Btn from '../btn/Btn';
 import Tools from '../tools/Tools';
+
+
+
 
 export default function Hello() {
   return (
 
-    <section id='home' className='hero min-h-[100vh]
+    <section id='home' className='hero min-h-[100vh] 
       lg:h-[91vh] 2xl:lg:h-[95vh] relative after:absolute    
     after:right-0 after:z-[-1] after:opacity-[0.2] 
     
     '>
 
-      <div className="hero-wrapper flex items-center bg-primary pt-[20px] h-[78vh] 
+      <div className="hero-wrapper flex items-center bg-primary pt-[80px] h-[78vh] 
     
       lg:h-[80vh] 2xl:h-[78vh] lg:pt-0   ">
         {/* lg:h-[85%] lg:pt-[10px] 2xl:pt-[50px]  "> */}

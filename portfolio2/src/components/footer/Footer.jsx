@@ -9,7 +9,7 @@ export default function Footer() {
     '>
       <div className="footer-wrapper flex flex-col items-center 
       ">
-        <h1 className='text-secondary font-normal text-[20px]   lg:text-[40px] '>Say <span className='opacity-[0.6]'>Hello</span>!</h1>
+        <h1 className='text-secondary font-normal text-[2rem]   lg:text-[4rem] '>Say <span className='opacity-[0.6]'>Hello</span>!</h1>
         <p className='text-secondary mb-[42px] text-[0.8rem] w-[250px] md:w-[600px] md:text-[1.2rem] text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
         <div className='next flex flex-col items-center pb-[80px] '>
           <div className="circle rounded-full w-[50px] h-[50px] border-[2px] animate-bounce border-green flex items-center justify-center">
