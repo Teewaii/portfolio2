@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-scroll';
 import Btn from '../btn/Btn';
 import Tools from '../tools/Tools';
 
@@ -35,9 +36,9 @@ export default function Hello() {
            ' >I <span className='text-green'>Design</span>  & <span className='text-green'>Build</span>  Web Based Software Solutions!</h1>
             <p className="body text-[0.9rem] md:text-[1.2rem] mb-[40px] text-secondary opacity-75 font-light leading-[1.3rem]
                     md:w-[85%]   2xl:text-[1.5rem]  2xl:w-[75%] md:mb-[50px] 2xl:mb-[90px] md:leading-[1.8rem] 2xl:leading-[2.2rem]
-                    tracking-wider
+                    tracking-wider delay-300
                     ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
-            <Btn />
+            <Btn/>
           </div>
         </div>
       </div>

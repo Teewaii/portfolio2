@@ -15,7 +15,7 @@ export default function Experience() {
     <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] lg:[90vh] bg-primary   ">
       <div className="bucket  flex flex-col items-center pt-[8rem]  md:py-[10rem] container
      ">
-        <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Palces I have worked</h1>
+        <h1 className='text-secondary lg:mb-[4rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Places I have worked</h1>
         <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[4rem] mt-[20px]
       ">
@@ -46,9 +46,10 @@ export default function Experience() {
 
                   <div className={exp === index ? "content text-left lg:ml-[30px] pt-[30px]" : "tab hidden"}
                     onClick={() => activeTab(index)} key={index} >
-                    <div className="top flex flex-col lg:flex-row mb-[40px] lg:mb-0  lg:items-center gap-4">
+                    <div className="top flex flex-col lg:flex-row mb-[40px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
                       <h1 className='text-[white] text-[1.5rem]'>{work.title}</h1>
-                      <h2 className='text-[1.5rem] text-green'>{work.year}</h2>
+                      <span className='text-secondary'>({work.type}) </span>
+                      <h2 className='text-[1.5rem] text-green'>- {work.year}</h2>
                     </div>
                     <span className='text-secondary opacity-40 pb-[30px]'>{work.about}</span>
                     <ul className='space-y-2 mt-3'>

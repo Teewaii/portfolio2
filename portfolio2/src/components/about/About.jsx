@@ -43,7 +43,7 @@ export default function About() {
 
               Presently, I spend most of my time building more complex and scalable projects using react and vanila Js.</p>
             <div className="toosl">
-              <h1 className='tools-used text-primary  text-[18px] mt-[30px] '>Few of the tools I’ve been working!</h1>
+              <h1 className='tools-used text-primary  text-[18px] mt-[30px] '>Few of the tools I’ve been working with!</h1>
 
               <ul className='tool-list text-primary flex flex-wrap  gap-[20px] mt-[13px]'>
 
