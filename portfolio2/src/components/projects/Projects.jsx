@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import projects from './project';
 import ProjectScroll from '../projectScroll/ProjectScroll';
-export default function Projects({project,activeProject}) {
+export default function Projects({ project, activeProject }) {
   // const [project, setProject] = useState(0);
 
   // function activeProject(index) {
@@ -16,38 +16,47 @@ export default function Projects({project,activeProject}) {
     <section id='projects' className="project min-h-[100vh] lg:[90vh] bg-primary  
      flex justify-center items-center  md:py-[10rem] pb-10  
     ">
-      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container ">
+      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container  overflow-hidden">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-secondary text-[1.1rem] opacity-50 lg:mb-[0rem] mb-[2rem]'>Few of my personal projects</p>
-        <div className="experience-wrapper  rounded-xl px-6  border-opacity-[0.1] border-secondary 
-        pb-[50px] container lg:py-[4rem] mt-[20px]
+        {/* Projects list controller start */}
+        <div className="scroll_wrapper lg:hidden">
+          <ProjectScroll
+            project={project}
+            activeProject={activeProject}
+          />
+        </div>
+
+        <div className="experience-wrapper  rounded-xl px-0  border-opacity-[0.1] border-secondary 
+        pb-[50px] container lg:py-[4rem] mt-[20px] 
       ">
 
 
           <div className="main flex flex-col gap-[80px]
-        md:flex-row
+        md:flex-row 
         ">
 
             {/* Projects list controller start */}
+            <div className="scroll_wrapper   hidden lg:block">
+              <ProjectScroll
+                project={project}
+                activeProject={activeProject}
+              />
+            </div>
 
-            <ProjectScroll
-            project={project}
-            activeProject={activeProject}
-            />
-            
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>
-              <div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-1 gap-[20px] lg:gap-[40px]  justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}>
+              <div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-1 gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}>
 
                 <div className="desc text-left flex flex-col flex-[1] justify-center
              
               ">
 
                   <div className="text-data">
-                    <h1 className='text-[white] text-[1.5rem]   mb-[10px]
+                    <h1 className='text-[white] text-[1.4rem]   mb-[10px]
                   lg:mb-[30px] lg:text-[1.6rem]  '>{item.head}</h1>
                     <p className='text-[white]'>{item.desc}</p>
 
