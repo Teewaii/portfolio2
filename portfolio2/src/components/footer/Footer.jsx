@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '../nav/Nav';
-import Btn_sec from '../btn/Btn-sec';
+// import Btn_sec from '../btn/Btn-sec';
+import Email from '../btn/Email';
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
             </svg>
             </span>
           </div>
-          <Btn_sec />
+          <Email />
         </div>
 
         <div className="copywright opacity-50 border-t w-[100%] border-secondary border-opacity-30 pt-7 lg:mt-[180px]">
