@@ -3,7 +3,7 @@ import React from 'react'
 export default function Email() {
     function Mail() {
         window.open(
-            "mailto:taiyeajimati@gmail.com?subject=SendMail&body=Description"
+            "mailto:taiyeajimati@gmail.com?subject=SendMail&bodyde"
         );
     }
     return (

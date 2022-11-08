@@ -86,8 +86,8 @@ code {
 }
 
 
-.name::before,
-.name::after {
+.names::before,
+.names::after {
   content: '';
   position: absolute;
   top: 10%;
@@ -96,7 +96,7 @@ code {
   right: 0;
 }
 
-.name::before {
+.names::before {
   background-color: inherit;
   animation: typeText var(--timing) steps(14) 1s forwards
 }

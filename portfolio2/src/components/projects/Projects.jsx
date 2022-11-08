@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import projects from './project';
 import ProjectScroll from '../projectScroll/ProjectScroll';
+import { motion } from "framer-motion";
+
+
 export default function Projects({ project, activeProject }) {
   // const [project, setProject] = useState(0);
 
@@ -15,19 +18,23 @@ export default function Projects({ project, activeProject }) {
   return (
     <section id='projects' className="project min-h-[100vh] lg:[90vh] bg-primary  
      flex justify-center items-center  md:py-[10rem] pb-10  
-    ">
+    " >
       <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container  overflow-hidden ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-secondary text-[1.1rem] opacity-50 lg:mb-[0rem] mb-[2rem]'>Few of my personal projects</p>
-        {/* Projects list controller start */}
-        <div className="scroll_wrapper lg:hidden">
+
+        {/*Mobile Projects list controller start */}
+        <motion.div className="scroll_wrapper lg:hidden"
+          initial={{ x: -200 }}
+          whileInView={{ x: 0 }}
+          transition={{ duration: 1 }}>
           <ProjectScroll
             project={project}
             activeProject={activeProject}
           />
-        </div>
+        </motion.div>
 
         <div className="experience-wrapper  rounded-xl px-0  border-opacity-[0.1] border-secondary 
         pb-[50px] container lg:py-[4rem] mt-[20px] 
@@ -39,19 +46,26 @@ export default function Projects({ project, activeProject }) {
         ">
 
             {/* Projects list controller start */}
-            <div className="scroll_wrapper    hidden lg:flex 
+            <motion.div className="scroll_wrapper    hidden lg:flex 
             lg:items-centser
-            ">
+            "  initial={{ x: -200 }}
+              whileInView={{ x: 0 }}
+              transition={{ duration: 1 }}
+            >
               <ProjectScroll
                 project={project}
                 activeProject={activeProject}
               />
-            </div>
+            </motion.div>
 
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>
-              <div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}>
+              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
+                initial={{ x: 200 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 1 }}
+              >
 
                 <div className="desc text-left flex flex-col flex-[1] justify-center
              
@@ -97,7 +111,7 @@ export default function Projects({ project, activeProject }) {
                   <img className='h-[100%] w-[100%]' src={item.pix} alt="" />
                 </div>
 
-              </div>
+              </motion.div>
               /* Projects description end */
 
             )

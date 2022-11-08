@@ -1,10 +1,13 @@
 import React from 'react'
 import projects from '../projects/project';
+import { motion } from "framer-motion";
+
 export default function projectScroll({ project, activeProject }) {
   return (
     <section id='projects' className="project h-[fit] bg-primary  
     lg:h-fit ml-[350px] lg:ml-[0px] 
-   ">
+   "
+    >
       <div className="bucket flex flex-col items-center   md:pt-[2rem] container">
         <div className="main flex flex-col gap-[80px]
        md:flex-row

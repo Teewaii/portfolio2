@@ -2,7 +2,8 @@ import React from 'react';
 import right_arrow from '../../img/rightArrow.svg';
 import right_down from '../../img/downArrow.svg';
 import Btn_sec from '../btn/Btn-sec';
-import hdshot from '../../img/shot.svg'
+import hdshot from '../../img/shot.svg';
+import { motion } from "framer-motion";
 // import tools from '../about/tools'
 
 const tools = [
@@ -59,11 +60,13 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div className="hero  md:flex-[0.8] h-[100%] items-center
-       ">
+          <motion.div className="hero  md:flex-[0.8] h-[100%] items-center
+       " initial={{ y: -100, opacity: 0.2 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1 }}>
             <img className=' scale-[0.8] md:scale-[1]  w-[fit] md:w-[50%]' src={hdshot} alt="head shot" />
 
-          </div>
+          </motion.div>
 
         </div>
       </div>

@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-scroll';
+import { useTypewriter, Cursor} from 'react-simple-typewriter';
 import Btn from '../btn/Btn';
 import Tools from '../tools/Tools';
 
@@ -8,6 +9,11 @@ import Tools from '../tools/Tools';
 
 
 export default function Hello() {
+  // const [typeText]=useTypewriter({
+  //   words:['with focus in frontend development!',' and I occassionly design products & sevices with great experience and accessibility.'],
+  //   loop:0,
+  //   deleteSpeed:40
+  // })
   return (
 
     <section id='home' className='hero min-h-[100vh] 
@@ -16,7 +22,7 @@ export default function Hello() {
     
     '>
 
-      <div className="hero-wrapper flex items-center bg-primary pt-[80px] h-[78vh] 
+      <div className="hero-wrapper flex items-center bg-primary pt-[40px] h-[78vh] 
     
       lg:h-[80vh] 2xl:h-[78vh] lg:pt-0   ">
         {/* lg:h-[85%] lg:pt-[10px] 2xl:pt-[50px]  "> */}
@@ -37,7 +43,7 @@ export default function Hello() {
             <p className="body text-[0.9rem] md:text-[1.2rem] mb-[40px] text-secondary opacity-75 font-light leading-[1.3rem]
                     md:w-[85%]   2xl:text-[1.5rem]  2xl:w-[75%] md:mb-[50px] 2xl:mb-[90px] md:leading-[1.8rem] 2xl:leading-[2.2rem]
                     tracking-wider delay-300
-                    ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
+                    ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility!</p>
             <Btn/>
           </div>
         </div>
